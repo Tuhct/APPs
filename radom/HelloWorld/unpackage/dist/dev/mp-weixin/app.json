@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/clock/clock",
+    "pages/clock/wish/wish",
+    "pages/add/add",
+    "pages/add/addNote/addNote",
+    "pages/my/my",
+    "pages/setting/setting",
+    "pages/setting/livingtime",
+    "pages/test/test"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FC5C82",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/clock/clock",
+        "text": "时之钟",
+        "iconPath": "static/tabbar/shijian.png",
+        "selectedIconPath": "static/tabbar/shijianed.png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "写什么",
+        "iconPath": "static/tabbar/add.png",
+        "selectedIconPath": "static/tabbar/added.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "这是我",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/myed.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
