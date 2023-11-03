@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/clock/clock",
+    "pages/clock/wish/wish",
+    "pages/add/add",
+    "pages/add/addNote/addNote",
+    "pages/my/my",
+    "pages/setting/setting"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FC5C82",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/in.png",
+        "selectedIconPath": "static/tabbar/ined.png"
+      },
+      {
+        "pagePath": "pages/clock/clock",
+        "text": "时钟",
+        "iconPath": "static/tabbar/shijian.png",
+        "selectedIconPath": "static/tabbar/shijianed.png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "发布",
+        "iconPath": "static/tabbar/add.png",
+        "selectedIconPath": "static/tabbar/added.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/myed.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

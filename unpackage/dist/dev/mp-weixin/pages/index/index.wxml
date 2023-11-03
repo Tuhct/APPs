@@ -1,0 +1,1 @@
+<view class="homework-ctn"><uni-card vue-id="8dd740cc-1" title="{{title}}" isFull="{{isFull}}" note="{{note}}" thumbnail="{{thumbnail}}" extra="{{extra}}" bind:__l="__l" vue-slots="{{['default']}}">helloword</uni-card><uni-pagination vue-id="8dd740cc-2" show-icon="false" total="100" pageSize="10" current="2" prev-text="上一页" next-text="下一页" bind:__l="__l"></uni-pagination></view>

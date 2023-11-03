@@ -1,0 +1,1 @@
+<view class="container data-v-e2d8e738"><view class="times data-v-e2d8e738"><label class="_span data-v-e2d8e738">{{hour+" : "+minutes}}</label><label style="font-size:38rpx;margin-left:10rpx;" class="_span data-v-e2d8e738">{{seconds+"s"}}</label></view></view>

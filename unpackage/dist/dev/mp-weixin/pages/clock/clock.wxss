@@ -1,0 +1,11 @@
+
+.container.data-v-e2d8e738 {
+	margin: 0 auto;
+}
+.times.data-v-e2d8e738 {
+	margin-left: 250rpx;
+	font-size: 60rpx;
+	padding-top: 60rpx;
+	font-weight: bold;
+}
+
